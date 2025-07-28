@@ -29,6 +29,7 @@ export interface ChangelogConfig {
   noAuthors: boolean;
   excludeAuthors: string[];
   hideAuthorEmail?: boolean;
+  strictPath?: boolean;
 }
 
 export type ResolvedChangelogConfig = Omit<ChangelogConfig, "repo"> & {
@@ -75,6 +76,7 @@ const getDefaultConfig = () =>
     },
     excludeAuthors: [],
     noAuthors: false,
+    strictPath: false,
   };
 
 export async function loadChangelogConfig(
