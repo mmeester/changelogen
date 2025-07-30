@@ -478,16 +478,16 @@ describe("git", () => {
       ### 🚀 Enhancements
 
       - Expose \`determineSemverChange\` and \`bumpVersion\` ([5451f18](https://github.com/unjs/changelogen/commit/5451f18))
-      - Infer github config from package.json ([#37](https://github.com/unjs/changelogen/pull/37))
+      - Infer github config from package.json ([#37](https://github.com/unjs/changelogen/pull/37), [c0febf1](https://github.com/unjs/changelogen/commit/c0febf1))
 
       ### 🩹 Fixes
 
       - Consider docs and refactor as semver patch for bump ([648ccf1](https://github.com/unjs/changelogen/commit/648ccf1))
-      - **scope:** ⚠️  Breaking change example, close #123 ([#134](https://github.com/unjs/changelogen/pull/134), [#123](https://github.com/unjs/changelogen/issues/123))
+      - **scope:** ⚠️  Breaking change example, close #123 ([#134](https://github.com/unjs/changelogen/pull/134), [#123](https://github.com/unjs/changelogen/issues/123), [20e622e](https://github.com/unjs/changelogen/commit/20e622e))
 
       ### 🏡 Chore
 
-      - **deps:** Update all non-major dependencies ([#42](https://github.com/unjs/changelogen/pull/42))
+      - **deps:** Update all non-major dependencies ([#42](https://github.com/unjs/changelogen/pull/42), [a80e372](https://github.com/unjs/changelogen/commit/a80e372))
       - Update dependencies ([c210976](https://github.com/unjs/changelogen/commit/c210976))
       - Fix typecheck ([8796cf1](https://github.com/unjs/changelogen/commit/8796cf1))
       - **release:** V0.3.3 ([f4f42a3](https://github.com/unjs/changelogen/commit/f4f42a3))
@@ -496,7 +496,7 @@ describe("git", () => {
 
       #### ⚠️ Breaking Changes
 
-      - **scope:** ⚠️  Breaking change example, close #123 ([#134](https://github.com/unjs/changelogen/pull/134), [#123](https://github.com/unjs/changelogen/issues/123))
+      - **scope:** ⚠️  Breaking change example, close #123 ([#134](https://github.com/unjs/changelogen/pull/134), [#123](https://github.com/unjs/changelogen/issues/123), [20e622e](https://github.com/unjs/changelogen/commit/20e622e))
 
       ### ❤️ Contributors
 
