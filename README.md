@@ -57,6 +57,7 @@ npx changelogen@latest [...args] [--dir <dir>]
 - `--prepatch`: Bump as a semver-prepatch version, can set id with string.
 - `--prerelease`: Bump as a semver-prerelease version, can set id with string.
 - `--hideAuthorEmail`: Do not include author email in changelog if github username cannot be found.
+- `--strictPath`: Use strict path matching for commit messages. Useful for monorepos or when you want to filter commits by path.
 
 > [!NOTE]
 > Version numbers starting with `0.` or `0.0.` follow different rules.
